@@ -1,0 +1,35 @@
+<p style='color:blue'>string</p>
+
+• A string is a data type in python.
+• String is sequence of characters which are enclosed within a single quote or double quote. 
+  These characters could be anything like letters, numbers, or special symbols.
+	For example, "python" is a string.
+• A string is created by placing all the elements inside single ' ' or double '' ''  or triple ''' ''' quotes.
+• The string type  is represented using a str class.
+• String can be represented by using single ' ' or double '' ''  or triple ''' ''' quotes.
+• We can create empty string using string constructor str() or single quote ' '.
+• Ordered:- it preserves sequence order.
+• Immutable:- String is immutable data type this means that element of string can not be changed once created.
+• Duplicates:- duplicate elements are allowed in string.
+• It support homogenous and heterogenous data. Eg. 'abcd' '1234'  'a1b2'
+• It is global data type which accept everything.
+• To get the length of string we have len() function.
+• The background data structure of string is array. Hence indexing is but obvious.
+## Indexing ##
+	• Indexing is used for accessing single element.                                                                              there are two types of indexing                                                                                                             1) positive indexing :- positive indexing start from 0 to n-1.    
+	For example, suppose we have a string s = 'python' and  if we want to access the 3rd element then need to use s[2] here we get 3rd element which is 't'.
+	
+        2) negative indexing:- negative indexing start from -n to -1.
+	For example, suppose we have a string s = 'python' and  if we want to access the 3rd element then need to use s[-3] here we get 3rd element which is 't'.
+	
+	The index must be an integer. We can't use floats or other types, this will result 
+	into TypeError.
+	If we mention the index value greater than the length of a string then it will throw an index error.
+
+       slicing
+
+	• When we want access multiple elements in a sequence for this we have a slicing. Slicing is based on indexing only. We use : colon for slicing.                                                       
+	Specify the start index and the end index, separated by a colon, to return a part of the string.
+	
+	 Syntax:     [start index : stop index : step]
+Eg. Suppose we have a string  s = 'python'  now here we can use slicing  s[2:5] then we got 'tho'.                                                                                                                                                       Ending index is excluded.                                                                                                                              If we want reverse string then we can use [start index : stop index: -1]    
